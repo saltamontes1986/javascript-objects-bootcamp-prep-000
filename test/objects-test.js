@@ -6,7 +6,7 @@ const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
 
-describe('objects', () => {
+describe('objects', ()=> {
   const babelResult = babel.transformFileSync(
     path.resolve(__dirname, '..', 'objects.js'), {
       presets: ['es2015']
